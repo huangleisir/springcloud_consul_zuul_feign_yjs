@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        prefer-ip-address: true
+  application:
+    name: service-hello
+server:
+  port: 8503
+management:
+  security:
+    enabled: false

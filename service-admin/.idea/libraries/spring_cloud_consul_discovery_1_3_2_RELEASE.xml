@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-cloud-consul-discovery-1.3.2.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/org/springframework/cloud/spring-cloud-consul-discovery/1.3.2.RELEASE/spring-cloud-consul-discovery-1.3.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

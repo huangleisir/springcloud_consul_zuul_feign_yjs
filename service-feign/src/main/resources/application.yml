@@ -1,0 +1,29 @@
+
+server:
+  port: 8765
+spring:
+  application:
+    name: service-feign
+  cloud:
+    consul:
+      discovery:
+        prefer-ip-address: true
+feign:
+  hystrix:
+   enabled: true
+#datasource config
+jdbc:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/sc_cloud?useSSL=false
+  username: root
+  password: 123456
+
+#mybatis config
+mybatis:
+  #typeAliasesPackage: com.forezp.dao
+  mapperLocations: classpath:mapper/*.xml
+#logging:
+#  path: logger/log
+management:
+  security:
+    enabled: false
