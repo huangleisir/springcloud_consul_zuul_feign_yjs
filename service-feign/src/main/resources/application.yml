@@ -6,7 +6,7 @@ spring:
     name: service-feign
   cloud:
     consul:
-      host: 127.0.0.1
+      host: 116.85.53.248
       port: 8500
       discovery:
         prefer-ip-address: true
