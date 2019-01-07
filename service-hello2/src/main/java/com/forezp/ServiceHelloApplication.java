@@ -5,7 +5,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 /**
- * Created by huxinglong on 2018/3/20.
+ * Created by  on 2018/3/20.
  */
 @SpringBootApplication
 @EnableDiscoveryClient
