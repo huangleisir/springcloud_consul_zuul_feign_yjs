@@ -14,7 +14,7 @@ import de.codecentric.boot.admin.notify.RemindingNotifier;
  * 
  * @Title: 为监控的服务添加邮件通知
  * @Package com.lovnx 
- * @author huxinglong
+ * @author 
  * @date 2018年3月29日 下午6:18:13
  * @version V1.0
  */
